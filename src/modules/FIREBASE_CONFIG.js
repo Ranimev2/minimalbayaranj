@@ -5,12 +5,12 @@ import { getFirestore } from 'firebase/firestore';
 import { getStorage } from 'firebase/storage';
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_API_FIREBASE_KEY,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MSG_SENDER_ID,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  apiKey: "AIzaSyBML3HRi76hP3vjtOWwO3n4nA0j9RBRY6s",
+  authDomain: "e-nebula-400807.firebaseapp.com",
+  projectId: "e-nebula-400807",
+  storageBucket: "e-nebula-400807.appspot.com",
+  messagingSenderId: "704685869889",
+  appId: "1:704685869889:web:77b3b206df5d6aaeb6efc0",
 };
 
 const firebaseApp = initializeApp(firebaseConfig);
